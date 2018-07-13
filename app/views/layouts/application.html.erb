@@ -8,6 +8,7 @@
     <%= csrf_meta_tags %>
 
     <%= stylesheet_link_tag "application", :media => "all" %>
+    <link href="https://fonts.googleapis.com/css?family=Boogaloo" rel="stylesheet">
     <!--<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">-->
 
     <!-- For third-generation iPad with high-resolution Retina display: -->
@@ -22,23 +23,21 @@
     <![endif]-->
   </head>
   <body>
-
+    
+    <div class="container-fluid"
    <%= render 'layouts/navigation' %>
+   
+   
 
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-9">
-          <%= bootstrap_flash %>
-          <%= yield %>
-        </div>
-       
-      </div><!--/row-->
-  <div class="container">
+   <%= render 'layouts/errors' %>
+   
+    <%= yield %>
+ 
       <footer>
         <p>&copy; Company 2018</p>
       </footer>
 
-    </div> <!-- /container -->
-  </div>
+   
+ </div>
   </body>
 </html>

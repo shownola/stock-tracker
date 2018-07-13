@@ -5,7 +5,7 @@
 <% end %>
 
 <% if @stock %>
-<div class="well results-block">
+<div class="well results-block container">
   
   <strong>Symbol: </strong> <%= @stock.ticker %>
   <strong>Name: </strong> <%= @stock.name %>
@@ -20,7 +20,7 @@
       <% end %>
       <% if current_user.stock_already_added?(@stock_ticker) %>
         this stock
-      <% end %>
+     <% end %>
     </span>
   <% end %>
 <% end %>

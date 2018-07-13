@@ -1,5 +1,135 @@
 @import 'font-awesome';
 
+$red: #CE3127;
+$dark-blue: #274977;
+$tan: #D0B985;
+$gold:  #ECDC80;
+$silver: #D5C9B9;
+$blue: #233F64;
+$green: #9FBD05;
+$dark-gray: #262528;
+$dark-gold: #DF800C;
+
+body, html {
+  height: 100%;
+}
+// body {
+//   background: $;
+// }
+.cover {
+  height: 100%;
+}
+
+.cover {
+    background: asset-url('stockexchange1.jpg')top left no-repeat;
+    background-size: cover;
+    // display: table;
+    width: 100%;
+    padding: 0 20%;
+    box-shadow: inset 0 0 100px #000;
+}
+// .cover-text {
+//     text-align: center;
+//     color: white;
+//     display: table-cell;
+//     vertical-align: middle;
+// }
+.cover-text h1 {
+    margin: 0;
+    font-size: 70px;
+    letter-spacing: -3px;
+    color: $red;
+    font-family: 'Boogaloo', cursive;
+    letter-spacing: 1px;
+    // text-shadow: 3px 4px 5px #000;
+    font-size: 150px;
+    // text-shadow: 0 1px 0 #ccc, 
+    //           0 2px 0 #c9c9c9,
+    //           0 3px 0 #bbb,
+    //           0 4px 0 #b9b9b9,
+    //           0 5px 0 #aaa,
+    //           0 6px 1px rgba(0,0,0,.1),
+    //           0 0 5px rgba(0,0,0,.1),
+    //           0 1px 3px rgba(0,0,0,.3),
+    //           0 3px 5px rgba(0,0,0,.2),
+    //           0 5px 10px rgba(0,0,0,.25),
+    //           0 10px 10px rgba(0,0,0,.2),
+    //           0 20px 20px rgba(0,0,0,.15);
+    
+    text-shadow: 0 1px 0 #3F51B5, 
+               0 2px 0 #3949AB,
+               0 3px 0 #303F9F,
+               0 4px 0 #283593,
+               0 5px 0 #1A237E,
+			         0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);;
+}
+.cover-text {
+  padding-top: 300px;
+  vertical-align: middle;
+  text-shadow: 3px 4px 5px #000;
+  font-size: 3em;
+}
+.cover-text .lead {
+  color: $dark-gold;
+  // text-shadow: 3px 4px 5px #000;
+  font-size: 1em;
+  text-shadow:
+        0.07em 0 black,
+        0 0.07em black,
+        -0.07em 0 black,
+        0 -0.07em black;
+}
+.new-container {
+  margin-top: 49px;
+  margin-bottom: 0;
+}
+.navbar {
+  margin-bottom: 0 !important;
+  padding-bottom: 10;
+}
+a .nav-link {
+  color: $gold;
+}
+#logout-btn {
+  padding-bottom: 3px;
+  padding-top: 3px;
+}
+
+.navbar-default {
+  background: $blue;
+  color: $gold;
+  border-color: $blue;
+}
+#logo{
+  color: $gold;
+   letter-spacing: -1px;
+  font-weight: 400;
+  font-size: 2em;
+  // font-size: 25px;
+  font-family: 'Great Vibes', cursive!important;
+}
+.navbar-nav.nav-link ul li a {
+  color: $red;
+}
+
+
+
+
+
+// .bg-container {
+//   background-image: asset-url('stockexchange1.jpg');
+//   background-size: cover;
+//   background-position: center center;
+//   background-repeat: no-repeat;
+ 
+// }
+
 .left-padding {
   padding-left: 15px !important;
 }
