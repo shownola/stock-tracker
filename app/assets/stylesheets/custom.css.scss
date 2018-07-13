@@ -85,14 +85,16 @@ body, html {
         -0.07em 0 black,
         0 -0.07em black;
 }
-footer {
+#footer {
   height: 60px;
   background: $blue;
   color: $gold;
   font-size: 1em;
-  padding-top: 20px;
- 
+  padding-top: 10px;
+  width: 100%;
 }
+
+
 .new-container {
   margin-top: 49px;
   margin-bottom: 0;
