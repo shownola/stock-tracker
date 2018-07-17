@@ -10,10 +10,11 @@ end
 gem 'rails', '~> 5.1.6'
 # Use sqlite3 as the database for Active Record
 gem 'devise'
+gem 'jquery-rails'
 gem "therubyracer"
 gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git'
 gem 'devise-bootstrap-views'
-gem 'jquery-rails'
+
 gem "stock_quote", '~> 2.0.0'
 gem 'font-awesome-rails'
 
